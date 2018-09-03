@@ -1,0 +1,31 @@
+{
+  "name": "first-nodejs",
+  "version": "1.0.0",
+  "description": "nodeJS static web server",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.5.0",
+    "pre-commit": "^1.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint":"eslint .",
+    "fix":"eslint --fix ."
+  },
+  "pre-commit":[
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjf3290550/first-nodeJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjf3290550/first-nodeJs/issues"
+  },
+  "homepage": "https://github.com/cjf3290550/first-nodeJs#readme"
+}
