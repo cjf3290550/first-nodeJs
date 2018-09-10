@@ -2,7 +2,10 @@
   "name": "first-nodejs",
   "version": "1.0.0",
   "description": "nodeJS static web server",
-  "main": "index.js",
+  "main": "src/app.js",
+  "bin":{
+      "go":"bin/go"
+  },
   "dependencies": {
     "art-template": "^4.13.0",
     "chalk": "^2.4.1"
