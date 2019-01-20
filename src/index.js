@@ -25,4 +25,4 @@ const argv = yargs
 
 
 const server = new Server(argv);
-server.strat();
+server.start();
