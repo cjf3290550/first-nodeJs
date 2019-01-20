@@ -10,7 +10,7 @@ class Server {
         this.config = Object.assign({}, config, conf);
     }
 
-    strat() {
+    start() {
         const server = http.createServer((req, res) => {
             const filePath = path.join(this.config.root, req.url);
             route(req, res, filePath, this.config);
